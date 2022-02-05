@@ -8,9 +8,8 @@ import Pink from "./components/Pink";
 import Brown from "./components/Brown";
 import Purple from "./components/Purple";
 import Grey from "./components/Grey";
-import './App.css';
 
-function App() {
+const App = () => {
   return (
     <>
     <Black/>
@@ -25,6 +24,6 @@ function App() {
     <Grey/>
     </>
   );
-}
+};
 
 export default App;
